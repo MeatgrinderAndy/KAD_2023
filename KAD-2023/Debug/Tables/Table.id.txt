@@ -1,0 +1,60 @@
+ПЕРЕМЕННЫЕ
+Индекс LE	Область видимости	Идентификатор	Тип Идентификатора	Тип данных	Значение	Длина строки
+        6	              sum	        first	                 P	     SHORT	       0	           -
+       10	              sum	       second	                 P	     SHORT	       0	           -
+       14	              sum	        third	                 P	     SHORT	       0	           -
+       19	              sum	       sumRes	                 V	     SHORT	       0	           -
+       37	differenceInLength	    strokeOne	                 P	       STR	        	           0
+       41	differenceInLength	    strokeTwo	                 P	       STR	        	           0
+       46	differenceInLength	       lenOne	                 V	     SHORT	       0	           -
+       55	differenceInLength	       lenTwo	                 V	     SHORT	       0	           -
+       64	differenceInLength	          res	                 V	     SHORT	       0	           -
+       85	            getHi	           hi	                 V	       STR	        	           0
+       97	             main	            a	                 V	     SHORT	       0	           -
+      128	             main	         strB	                 V	       STR	        	           0
+      134	             main	            b	                 V	     SHORT	       0	           -
+      150	             main	     strBCopy	                 V	       STR	        	           0
+      166	             main	         rand	                 V	     SHORT	       0	           -
+      180	             main	         date	                 V	       STR	        	           0
+      191	             main	            i	                 V	     SHORT	       0	           -
+      214	             main	            h	                 V	       STR	        	           0
+      230	             main	            c	                 V	     SHORT	       0	           -
+      236	             main	       sumABC	                 V	     SHORT	       0	           -
+      252	             main	  firstStroke	                 V	       STR	        	           0
+      258	             main	 secondStroke	                 V	       STR	        	           0
+      264	             main	   difBetween	                 V	     SHORT	       0	           -
+      278	             main	       hexNum	                 V	     SHORT	       0	           -
+      290	             main	       binNum	                 V	     SHORT	       0	           -
+
+ФУНКЦИИ
+Индекс LE	Область видимости	Идентификатор	Тип данных возврата
+        0	           global	       lenght	              SHORT
+        0	           global	         copy	                STR
+        0	           global	getLocalTimeAndDate	                STR
+        0	           global	       random	              SHORT
+        2	           global	          sum	              SHORT
+       33	           global	differenceInLength	              SHORT
+       76	           global	        getHi	                STR
+
+ЛИТЕРАЛЫ
+Индекс LE	Идентификатор	Тип данных	Длина строки		                         Значение
+       81	          L0        STR	              3                                     	"Hi!"
+       87	          L1        STR	              6                                     	"Hello!"
+       99	          L2      SHORT	              -		                                      -3	
+      107	          L3      SHORT	              -		                                       7	
+      110	          L4      SHORT	              -		                                       6	
+      112	          L5      SHORT	              -		                                       3	
+      114	          L6      SHORT	              -		                                       4	
+      117	          L7      SHORT	              -		                                       2	
+      121	          L8      SHORT	              -		                                    4464	
+      130	          L9        STR	             11                                     	"Тест строки"
+      170	         L10      SHORT	              -		                                       0	
+      172	         L11      SHORT	              -		                                     100	
+      199	         L12      SHORT	              -		                                      10	
+      209	         L13      SHORT	              -		                                       1	
+      226	         L14      SHORT	              -		                                      15	
+      232	         L15      SHORT	              -		                                       5	
+      254	         L16        STR	              5                                     	"Hello"
+      260	         L17        STR	             11                                     	"How are you"
+      283	         L18        STR	             35                                     	"Шестнадцатиричное число A в 10й сс:"
+      295	         L19        STR	             29                                     	"Двоичное число 1010 в 10й сс:"

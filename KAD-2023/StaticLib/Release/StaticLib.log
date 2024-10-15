@@ -1,0 +1,2 @@
+﻿MSVCRT.lib(exe_main.obj) : error LNK2001: неразрешенный внешний символ _main.
+D:\KAD-2023-CP\KAD-2023\Release\StaticLib.exe : fatal error LNK1120: неразрешенных внешних элементов: 1

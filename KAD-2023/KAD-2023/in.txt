@@ -1,0 +1,76 @@
+short function sum(short param first, short param second, short param third){
+	short var sumRes = first + second + third;
+	return sumRes;
+}
+
+short function differenceInLength(str param strokeOne, str param strokeTwo){
+	short var lenOne = lenght(strokeOne);
+	short var lenTwo = lenght(strokeTwo);
+	short var res = lenOne - lenTwo;
+	return res;
+}
+
+str function getHi(){
+	write "Hi!";
+	str var hi = "Hello!"; 
+	return hi;
+}
+
+
+
+main{
+	#Пример работы арифметических операций
+	short var a = -3;
+	a = ((a + 7) * 6 / 3 - 4) % 2;
+	write a;
+	
+	#Пример работы функции вычисления длины строки
+	str var strB = "Тест строки"; 
+	short var b;
+	b = 1 + lenght(strB);
+	write b;
+	
+	#Пример функции копирования строки
+	str var strBCopy = copy(strBCopy, strB, 4);
+	write strBCopy;
+	
+	#Функция получения случайного числа
+	short var rand = random(0, 100);
+	write rand;
+	
+	#Функция получения локальной даты
+	str var date = getLocalTimeAndDate();
+	write date;
+	
+	#Пример работы цикла
+	short var i = 0;
+	repeat(i<10){
+		write i;
+		i = i + 1;
+	}
+		
+	str var h = getHi();
+	
+	#Вызов функции и передача целочисленных параметров
+	a =  10;
+	b = 15;
+	short var c = 5;
+	short var sumABC = sum(a, b, c);
+	write sumABC; 	
+	
+	#Вызов функции и передача строковых параметров
+	str var firstStroke = "Hello";
+	str var secondStroke = "How are you";
+	short var difBetween = differenceInLength(firstStroke, secondStroke);
+	write difBetween;
+	
+	#Шестнадцатиричное представление числа
+	short var hexNum = hA;
+	write "Шестнадцатиричное число A в 10й сс:";
+	write hexNum;
+
+	#Двоичное прелставление числа
+	short var binNum = b1010;
+	write "Двоичное число 1010 в 10й сс:";
+	write binNum;	
+}

@@ -1,0 +1,78 @@
+1	tfi(tpi,tpi,tpi){
+2	tvi=ii+i+;
+3	ri;
+4	}
+5	
+6	tfi(tpi,tpi){
+7	tvi=ii@1;
+8	tvi=ii@1;
+9	tvi=ii-;
+10	ri;
+11	}
+12	
+13	tfi(){
+14	wl;
+15	tvi=l;
+16	ri;
+17	}
+18	
+19	
+20	
+21	m{
+22	
+23	tvi=l;
+24	i=il+l*l/l-l%####;
+25	i=l;
+26	wi;
+27	
+28	
+29	tvi=l;
+30	tvi;
+31	i=ii@1l*;
+32	wi;
+33	
+34	
+35	tvi=iiil@3##;
+36	wi;
+37	
+38	
+39	tvi=ill@2#;
+40	wi;
+41	
+42	
+43	tvi=i@0;
+44	wi;
+45	
+46	
+47	tvi=l;
+48	~(i<l){
+49	wi;
+50	i=il+;
+51	}
+52	
+53	tvi=i@0;
+54	
+55	
+56	i=l;
+57	i=l;
+58	tvi=l;
+59	tvi=iiii@3##;
+60	wi;
+61	
+62	
+63	tvi=l;
+64	tvi=l;
+65	tvi=iii@2#;
+66	wi;
+67	
+68	
+69	tvi=l;
+70	wl;
+71	wi;
+72	
+73	
+74	tvi=l;
+75	wl;
+76	wi;
+77	}
+78	$

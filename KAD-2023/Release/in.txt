@@ -1,0 +1,4 @@
+main{
+	short var a = 5;
+	write a;
+}

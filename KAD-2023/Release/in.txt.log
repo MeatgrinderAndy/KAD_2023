@@ -1,0 +1,76 @@
+----- Протокол ----- Дата: 08.12.2023 пятница 01:09:29 
+
+----- Параметры -----
+-log: in.txt.log
+-out: out.asm
+-in: in.txt
+
+----- Исходные данные -----
+Количество символов	: 43
+Проигнорировано		: 3
+Количество строк	: 4
+
+Шаг :Правило             Входная лента                 Стек                
+0   :S->m{N}S            m{tvi=l;wi;}$                 S$                  
+1   : SAVESTATE:          1
+1   :                    m{tvi=l;wi;}$                 m{N}S$              
+2   :                    {tvi=l;wi;}$                  {N}S$               
+3   :                    tvi=l;wi;}$                   N}S$                
+4   :N->tY;N             tvi=l;wi;}$                   N}S$                
+5   : SAVESTATE:          2
+5   :                    tvi=l;wi;}$                   tY;N}S$             
+6   :                    vi=l;wi;}$                    Y;N}S$              
+7   :Y->vi               vi=l;wi;}$                    Y;N}S$              
+8   : SAVESTATE:          3
+8   :                    vi=l;wi;}$                    vi;N}S$             
+9   :                    i=l;wi;}$                     i;N}S$              
+10  :                    =l;wi;}$                      ;N}S$               
+11  : TNS_NS_NORULECHAIN/NS_NORULE
+11  : RESTATE             
+11  :                    vi=l;wi;}$                    Y;N}S$              
+12  :Y->vi=L             vi=l;wi;}$                    Y;N}S$              
+13  : SAVESTATE:          3
+13  :                    vi=l;wi;}$                    vi=L;N}S$           
+14  :                    i=l;wi;}$                     i=L;N}S$            
+15  :                    =l;wi;}$                      =L;N}S$             
+16  :                    l;wi;}$                       L;N}S$              
+17  :L->l                l;wi;}$                       L;N}S$              
+18  : SAVESTATE:          4
+18  :                    l;wi;}$                       l;N}S$              
+19  :                    ;wi;}$                        ;N}S$               
+20  :                    wi;}$                         N}S$                
+21  :N->wE;N             wi;}$                         N}S$                
+22  : SAVESTATE:          5
+22  :                    wi;}$                         wE;N}S$             
+23  :                    i;}$                          E;N}S$              
+24  :E->iM               i;}$                          E;N}S$              
+25  : SAVESTATE:          6
+25  :                    i;}$                          iM;N}S$             
+26  :                    ;}$                           M;N}S$              
+27  :M->                 ;}$                           M;N}S$              
+28  : SAVESTATE:          7
+28  :                    ;}$                           ;N}S$               
+29  :                    }$                            N}S$                
+30  :N->                 }$                            N}S$                
+31  : SAVESTATE:          8
+31  :                    }$                            }S$                 
+32  :                    $                             S$                  
+33  :S->                 $                             S$                  
+34  : SAVESTATE:          9
+34  :                    $                             $                   
+35  :                                                                      
+36  : LENTA_END           
+37  : ------>LENTA_END    
+------------------------------------------------------------------------------------------   ------
+0   всего строк 13, синтаксический анализ выполнен без ошибок
+0   : S->m{N}S            
+2   : N->tY;N             
+3   : Y->vi=L             
+6   : L->l                
+8   : N->wE;N             
+9   : E->iM               
+10  : M->                 
+11  : N->                 
+12  : S->                 
+
+Программа успешно завершена!

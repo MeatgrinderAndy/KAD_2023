@@ -1,0 +1,18 @@
+ПЕРЕМЕННЫЕ
+Индекс LE	Область видимости	Идентификатор	Тип Идентификатора	Тип данных	Значение	Длина строки
+        4	             main	            a	                 V	     SHORT	       0	           -
+
+ФУНКЦИИ
+Индекс LE	Область видимости	Идентификатор	Тип данных возврата
+        0	           global	       lenght	              SHORT
+        0	           global	         copy	                STR
+        0	           global	getLocalTimeAndDate	                STR
+        0	           global	    powNumber	              SHORT
+        0	           global	       random	              SHORT
+        0	           global	squareOfNumber	              SHORT
+        0	           global	factorialOfNumber	              SHORT
+
+ЛИТЕРАЛЫ
+Индекс LE	Идентификатор	Тип данных	Длина строки		                         Значение
+        6	          L0      SHORT	              -		                                       5	
+       15	          L1        STR	              3                                     	" "

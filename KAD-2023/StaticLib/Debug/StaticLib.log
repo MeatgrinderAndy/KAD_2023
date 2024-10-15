@@ -1,0 +1,4 @@
+﻿  StandFunctions.cpp
+D:\KAD-2023-CP\KAD-2023\StaticLib\StandFunctions.cpp(25,14): warning C4267: инициализация: преобразование из "size_t" в "short"; возможна потеря данных
+D:\KAD-2023-CP\KAD-2023\StaticLib\StandFunctions.cpp(46,14): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+  StaticLib.vcxproj -> D:\KAD-2023-CP\KAD-2023\Debug\StaticLib.lib
